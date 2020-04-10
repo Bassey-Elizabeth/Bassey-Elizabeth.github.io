@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My PiggyVest clone</title>
+</head>
+<body>
+    <!--.container-->
+    <div class="container">
+        <!--logo-->
+      <a href="www.piggyvest.com">
+        <img src="https://res.cloudinary.com/lizb/image/upload/v1586527083/piggy_logo_eglwa3.svg" alt="piggyvest logo">
+      </a>
+        <!--.main-->
+        <div class="main">
+            <!--header-->
+            <header>
+                <h1>Create a Secure Account</h1>
+                <p>Welcome to the future of savings and investment.</p>
+            </header>
+  
+            <form action="" method="POST" class="form-group">
+                <div class="form-content">
+                    <label for="f-name">Full Name</label><br>
+                    <input type="text" name="f-name" placeholder="Full Name">
+                </div>
+
+                <div class="form-content">
+                    <label for="f-email">Email Address</label><br>
+                    <input type="email" name="f-email" placeholder="Email Address">
+                </div>
+
+                <div class="form-content">
+                    <label for="phone">Phone Number</label><br>
+                    <input type="number" name="phone" placeholder="Phone Number">
+                </div>
+
+                <div class="form-content">
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" placeholder="password">
+                </div>
+
+                <div class="form-content">
+                    <label for="referer">Referer Phone or Promo Code (Optional)</label><br>
+                    <input type="number" name="referer" placeholder="Referer Phone or Code">
+                </div>
+
+                <div class="form-content">
+                    <label for="select">How Did You Hear About us? (Optional)</label><br>
+                    <input list="referals" name="select" value="Click To Select">
+                    <datalist id="referals">
+                        <option value="Facebook">
+                        <option value="Twitter">
+                        <option value="Instagram">
+                        <option value="Friend/Family/Coworker/Referal">
+                        <option value="Google Search">
+                        <option value="Google Playstore">
+                        <option value="Online Blog">
+                        <option value="Local Newspaper">
+                        <option value="At an event">
+                        <option value="Other">
+                    </datalist>
+                </div>
+
+                <div class="form-content">
+                   <button>Create Account</button>
+                </div>
+        </form>
+    </div><!--end div.main-->
+    <!--footer-->
+    <footer class="footer">
+        <p>Already have an account? <a href="#">Login</a></p>
+</footer>
+</div>
+</body>
+</html>
