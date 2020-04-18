@@ -75,7 +75,7 @@ header {
 	display: grid;
 	grid-template-columns:(1, 1fr);
     min-height: 650px;
-    background: url(../images/img2.jpg);
+    background: url("https://res.cloudinary.com/lizb/image/upload/v1587217857/img1_eo5j39.jpg");
     background-size: cover;
     background-position: center;
     padding: 3rem;
